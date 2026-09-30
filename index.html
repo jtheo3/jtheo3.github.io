@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for proper character encoding and mobile responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Theobald | Cybersecurity Portfolio</title>
+    
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts: Inter for a clean, professional, and readable look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <!-- Sticky header that stays at the top of the screen as users scroll -->
+    <header class="navbar">
+        <div class="logo">Jack Theobald</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <!-- The first thing visitors see, creating a strong first impression -->
+    <section id="hero" class="section hero-section">
+        <div class="container hero-content">
+            <h1>Hello, I'm Jack.</h1>
+            <h2>B.S. Cybersecurity Student | Class of 2030</h2>
+            <p>Exploring the intersection of software development, problem-solving, and modern digital security.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section container">
+        <h2 class="section-title">About Me & My Academic Interests</h2>
+        <div class="about-content">
+            <!-- Placeholder for a professional headshot or personal photo -->
+            <div class="image-placeholder">
+                <p>[Insert Profile Photo Here]</p>
+            </div>
+            <div class="about-text">
+                <p>I am a first-year undergraduate from New Jersey pursuing a Bachelor of Science in Cybersecurity. My academic journey is built on a strong foundation in mathematics and computing, driven by a natural curiosity for how complex systems operate and how to secure them.</p>
+                <p>I value adaptability and continuous learning. When I'm not deep into function composition, working on Python scripts, or tackling new AI concepts, you can usually find me taking a long walk with a dog or enjoying a late-night gaming session with my headphones on. I bring that same sustained focus and relaxed, collaborative energy to my professional and academic projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Academic Projects & Coursework</h2>
+            <div class="grid">
+                
+                <!-- Project Card 1 -->
+                <div class="card">
+                    <div class="card-image-placeholder">[App Screenshot]</div>
+                    <h3>Song Guessing Game</h3>
+                    <p class="tech-stack">Python | HTML | CSS</p>
+                    <p>Designed and developed an interactive web application that plays short song clips and accepts user guesses. Collaborated with peers to refine the UI/UX and rigorously tested and debugged features to ensure a seamless experience.</p>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="card">
+                    <div class="card-image-placeholder">[Code Snippet Image]</div>
+                    <h3>Python Applications</h3>
+                    <p class="tech-stack">Python | Problem Solving</p>
+                    <p>Developed various focused Python applications to strengthen core programming concepts including variables, loops, functions, and user input validation. Emphasized clean code and reliable debugging practices.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section container">
+        <h2 class="section-title">Skills & Technical Competencies</h2>
+        <div class="skills-grid">
+            
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <ul class="skill-list">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>HTML/CSS</li>
+                    <li>C (Currently Learning)</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <ul class="skill-list">
+                    <li>Google Workspace</li>
+                    <li>Microsoft Office</li>
+                    <li>AI Workflows & Prompting</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Core Strengths</h3>
+                <ul class="skill-list">
+                    <li>Problem Solving</li>
+                    <li>Teamwork & Collaboration</li>
+                    <li>Time Management</li>
+                    <li>Customer Service</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- CAREER GOALS SECTION -->
+    <section id="goals" class="section bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Career Goals</h2>
+            <p class="max-width-text">As I progress toward my 2030 graduation, my goal is to bridge my foundational computing coursework with real-world security challenges. I am actively exploring specializations within the cybersecurity landscape—from threat analysis to secure software development—and I am seeking internships that will allow me to apply my analytical skills to protect modern digital infrastructures.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section container">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="text-center">Whether you want to discuss emerging cybersecurity trends, review my code, or just share a great walking route, my inbox is open.</p>
+        
+        <!-- A simple HTML form structure. To make it functional on GitHub pages, you can link the action to a free service like Formspree -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_ENDPOINT_HERE" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-full">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jack Theobald. Built for the future of Cybersecurity.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
