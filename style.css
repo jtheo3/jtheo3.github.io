@@ -247,7 +247,7 @@ a:hover {
 
 .card-image {
     width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: var(--border-radius);
     margin-bottom: 20px;
     object-fit: cover;
